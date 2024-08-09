@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-class ProjectCreate(BaseModel):
+class Projectcreate(BaseModel):
     title: str
     description: str
     image_url: str
